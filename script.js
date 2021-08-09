@@ -219,8 +219,9 @@ class List {
 }
 
 const list = new List()
-list.addToFront(1)
-.addToBack(2)
+
+list.addToFront( 1 )
+.addToBack( 2 )
 .prependValue( 5, 1 )
 .appendValue( 17, 3 )
 .printValues()
